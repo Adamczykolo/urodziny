@@ -1,0 +1,11 @@
+.title {
+    justify-content: center;
+    display: flex;
+
+}
+
+* {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
