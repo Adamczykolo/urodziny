@@ -1,3 +1,20 @@
+<?php
+
+$mysqli = new mysqli("sql11.freesqldatabase.com", "sql11681902", "87tWfe5aWH", "sql11681902");
+
+
+
+#Database name: sql11681902
+#Database user: sql11681902
+#Database password: 87tWfe5aWH
+#Port number: 3306
+#Host: sql11.freesqldatabase.com
+
+
+$ipquery = "SELECT * FROM `urodziny` WHERE ip = ''"
+    ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,17 +27,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     <title>uro</title>
     <script src="scripts/main.js"></script>
-    <style>
 
-    </style>
+
 </head>
 
 <body>
 
     <h1 class="title">no hejka</h1>
     Spryciarzu, kurcze!
-    <img src="/Zrzut ekranu 2024-02-03 180536.png" alt="spryciarzu">
-    <a href="hej.html">DALEJ </a>
+    <img src="Zrzut ekranu 2024-02-03 180536.png" alt="spryciarzu">
+    <a href="manual.html">DALEJ </a>
+
+
+    <?php
+    #na przycisk zbierac IP uzytkownika i wrzucać do bazy, co jesli 2 osoby maja te samo ip?
+    ?>
+
     <script>
     </script>
 </body>
