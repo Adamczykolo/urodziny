@@ -1,18 +1,20 @@
 <?php
 
-$mysqli = new mysqli("sql11.freesqldatabase.com", "sql11681902", "87tWfe5aWH", "sql11681902");
+$mysqli = new mysqli("sql11.freesqldatabase.com", "sql11684784", "87tWfe5aWH", "sql11684784");
 
 
 
-#Database name: sql11681902
-#Database user: sql11681902
-#Database password: 87tWfe5aWH
-#Port number: 3306
 #Host: sql11.freesqldatabase.com
+#Database name: sql11684784
+#Database user: sql11684784
+#Database password: u2Vw8cXWDs
+#Port number: 3306
 
 
-$ipquery = "SELECT * FROM `urodziny` WHERE ip = ''"
-    ?>
+
+
+
+?>
 
 
 <!DOCTYPE html>
